@@ -1,0 +1,130 @@
+
+/* ESERCIZIO 1 */
+.primo-quadrato{
+    transition: 2s;
+}
+
+.primo-quadrato:hover{
+    background-color: red;
+}
+
+/* ESERCIZIO 2 */
+
+.secondo-quadrato{
+    transition: 2s;
+}
+
+.secondo-quadrato:active{
+    width: 100%;
+}
+
+/* ESERCIZIO 3 */
+
+.terzo-quadrato{
+    transition: 1s;
+}
+
+.terzo-quadrato:hover{
+    border-radius: 50%;
+}
+
+/* ESERCIZIO 4 */
+
+.quarto-quadrato{
+    transition: 1s;
+}
+
+.quarto-quadrato:hover{
+    opacity: 0;
+}
+
+/* esercizio 5 */
+
+/* non va! */
+.quinto-quadrato{
+    transition: 1s;
+}
+
+.quinto-quadrato:hover{
+    transform: scale(2);
+}
+
+.quarto-quadrato:active{
+    transform: scale(1);
+}
+/* non va! */
+
+/* esercizio 6 */
+
+.img-esercizio-6:hover {
+    filter: grayscale(1);
+}
+
+/* esercizio 7 */
+
+.img-esercizio-7{
+    transition: 2s;
+}
+
+.img-esercizio-7:hover{
+    filter: grayscale(1);
+}
+
+/* esercizio 8 */
+
+.img-esercizio-8{
+    transition: 2s;
+}
+
+.img-esercizio-8:hover{
+    filter: grayscale(1);
+    border-radius: 25px;
+}
+
+/* ESERCIZIO 9 */
+
+.img-esercizio-9{
+    transition: 2s;
+}
+
+.img-esercizio-9:hover{
+    filter: grayscale(1);
+    border-radius: 25px;
+    transform: scale(1.5);
+}
+
+/* esercizio 10 */
+
+.barra-esercizio-10{
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(1turn);
+    }
+}
+
+/* ESERCIZIO 11 */
+
+.barra-esercizio-11:hover {
+    animation: spinALittleBit 2s linear;
+}
+@keyframes spinALittleBit {
+    0% {
+        transform: rotate(0);
+    }
+    90% {
+        transform: rotate(315deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+
+/* esercizio 12 */
+
+
+
+/* esercizio 13 */
+
